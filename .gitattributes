@@ -1,0 +1,6 @@
+# git lfs - track all data in the datasets
+catch/datasets/data/** filter=lfs diff=lfs merge=lfs -text
+
+# git lfs - track all probe designs
+probe-designs/*.fasta.gz filter=lfs diff=lfs merge=lfs -text
+probe-designs/*.fasta filter=lfs diff=lfs merge=lfs -text
