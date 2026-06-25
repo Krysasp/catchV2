@@ -222,11 +222,11 @@ The unified pipeline generates comprehensive output files organized into three c
 
 | File | Format | Description | Usage |
 |------|--------|-------------|-------|
-| `{prefix}_oligosM6NA26NT.fasta` | FASTA | 26-mer oligo probes after primer3 optimization | Synthesis-ready probe sequences |
-| `{prefix}_oligosM6NA26NT_original.fasta` | FASTA | Original 100-nt probe sequences before optimization | Reference for probe design validation |
-| `{prefix}_oligos_anaM6NA26NT.tsv` | TSV | Analysis coverage statistics | Quality control, coverage assessment |
-| `{prefix}_oligos_probemapNA26NT.csv` | CSV | Probe-to-target genome mapping | Specificity analysis, off-target detection |
-| `{prefix}_oligos_wncov6NA26NT.csv` | CSV | Sliding window coverage analysis | Gap identification, coverage uniformity |
+| `{prefix}_oligomers.fasta` | FASTA | 26-mer oligo probes after primer3 optimization | Synthesis-ready probe sequences |
+| `{prefix}_oligos_original.fasta` | FASTA | Original 100-nt probe sequences before optimization | Reference for probe design validation |
+| `{prefix}_oligos_ana.tsv` | TSV | Analysis coverage statistics | Quality control, coverage assessment |
+| `{prefix}_oligos_probemap.csv` | CSV | Probe-to-target genome mapping | Specificity analysis, off-target detection |
+| `{prefix}_oligos_wncov.csv` | CSV | Sliding window coverage analysis | Gap identification, coverage uniformity |
 
 #### 2. ViroSort Output Files
 
@@ -303,22 +303,15 @@ C0001        101             200           0                   uncovered
 | Oligos FASTA | Probe sequences (optional) | `part1_oligosM6NA26NT.fasta` |
 | Probemap CSV | Probe-to-genome mapping (optional) | `part1_oligos_probemapNA26NT.csv` |
 
-## Obfuscated Scripts
-
-The following core scripts in catchV2 are obfuscated using javascript-obfuscator with unicode escape sequences:
-
-1. `bin/design_final_obf.py` - Main CATCH probe design script (obfuscated)
-2. `bin/design_large_final_obf.py` - Large input probe design script (obfuscated)
-3. `catch/probe_final_obf.py` - Probe class module (obfuscated)
-
 ### Obfuscation Details
+The following scripts have been obfuscated:
+- virosort/main_adapter_revised.py
+- bin/design_large.py
+- bin/design.py
+- catch/probe.py
+-
+### Email to 'jonatasp92@gmail.com' for more details.
 
-All obfuscated scripts use javascript-obfuscator v2.16.0 with the following settings:
-- Unicode escape sequence encoding for string literals (e.g., `'Hayden'` → `'\u0048\u0061\u0079\u0064\u0065\u006e'`)
-- Compact output format
-- Non-ASCII character representation for author strings and documentation
-- Maintains Python syntax compatibility
-- Strings obfuscated while preserving code structure and logic
 
 ## Header Format
 
@@ -342,21 +335,7 @@ All obfuscated scripts use javascript-obfuscator v2.16.0 with the following sett
 MIT License
 
 ## Citation
-
-For CATCH:
-* Metsy HC and Siddle KJ _et al_. Capturing sequence diversity in metagenomes with comprehensive and scalable probe design. _Nature Biotechnology_, **37**(2), 160–168 (2019). doi: 10.1038/s41587-018-0006-x
-
-## Author
-
-CATCHv2 Development Team
-
-## License
-
-MIT License
-
-## Citation
-
-For CATCH:
+Initial design of CATCH:
 * Metsky HC and Siddle KJ _et al_. Capturing sequence diversity in metagenomes with comprehensive and scalable probe design. _Nature Biotechnology_, **37**(2), 160–168 (2019). doi: 10.1038/s41587-018-0006-x
 
 ## Author
