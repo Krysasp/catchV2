@@ -228,7 +228,7 @@ The unified pipeline generates comprehensive output files organized into three c
 | `{prefix}_oligos_probemap.csv` | CSV | Probe-to-target genome mapping | Specificity analysis, off-target detection |
 | `{prefix}_oligos_wncov.csv` | CSV | Sliding window coverage analysis | Gap identification, coverage uniformity |
 
-#### 2. ViroSort Output Files
+#### 2. Example of Output Files
 
 **FASTA Directory (`fasta/`):**
 
@@ -306,29 +306,12 @@ C0001        101             200           0                   uncovered
 ### Obfuscation Details
 The following scripts have been obfuscated:
 - virosort/main_adapter_revised.py
+- virosort/probe_mapper.py
+- virosort/taxonomy.py
 - bin/design_large.py
 - bin/design.py
-- catch/probe.py
--
+  
 ### Email to 'jonatasp92@gmail.com' for more details.
-
-
-## Header Format
-
-### Renamed Consensus FASTA
-```
->C{cluster_id:04d}|{family}|{genus}|{species}|{coverage}|{molecule_type}
-```
-
-### Renamed Probes FASTA
-```
->{hash}|C{cluster_id:04d}|{probe_type}|{family}|{genus}|{species}|{num_seqs}|{coverage}|{molecule_type}
-```
-
-### Renamed 26-mer Oligos FASTA
-```
->{probe_id}|C{cluster_id:04d}|{family}|{genus}|{species}|{num_seqs}|{coverage}|{molecule_type}
-```
 
 ## License
 
