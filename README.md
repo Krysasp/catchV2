@@ -6,7 +6,7 @@ CATCHv2 is an enhanced probe design pipeline that integrates CATCH (Compact Aggr
 
 ## Usage, Utility, and Functionalities
 
-CATCHv2 is a comprehensive bioinformatics pipeline designed for viral probe development and analysis. It combines two powerful tools—CATCH for probe design and ViroSort for viral sequence characterization—into a unified workflow.
+CATCHv2 is a comprehensive bioinformatics pipeline designed for viral probe development and analysis. It combines CATCH for probe design and ViroSort as helper tool, created in-house, for viral sequence characterization—into a unified workflow.
 
 ### Primary Use Cases
 
@@ -21,7 +21,7 @@ CATCHv2 is a comprehensive bioinformatics pipeline designed for viral probe deve
 - Aggregate probes from multiple viral clusters into optimized pools
 - Balance probe representation to ensure even hybridization across targets
 - Minimize redundancy while maintaining comprehensive coverage
-- Design primer pairs (forward/reverse) flanking probe regions
+- Design primers (iether in forward/reverse orientation) flanking probe regions
 
 **3. Viral Taxonomy Annotation**
 - Annotate probe sequences with taxonomic information (family, genus, species)
@@ -47,8 +47,8 @@ Input (viral sequences)
     │       └── Create degapped consensus per cluster
     │
     ├── Step 3: Probe Design (CATCH)
-    │       ├── Extract 100-nt probe sequences at specified stride
-    │       ├── Optimize 26-mer oligos using primer3
+    │       ├── Extract #1-nt probe sequences at specified stride
+    │       ├── Optimize #2-mer oligos using primer3
     │       └── Filter probes by mismatch tolerance
     │
     ├── Step 4: Probe Mapping (ViroSort)
@@ -319,7 +319,7 @@ MIT License
 
 ## Citation
 Initial design of CATCH:
-* Metsky HC and Siddle KJ _et al_. Capturing sequence diversity in metagenomes with comprehensive and scalable probe design. _Nature Biotechnology_, **37**(2), 160–168 (2019). doi: 10.1038/s41587-018-0006-x
+Metsky, H. C., Siddle, K. J., et. al. (2019). Capturing sequence diversity in metagenomes with comprehensive and scalable probe design. Nature biotechnology, 37(2), 160–168. https://doi.org/10.1038/s41587-018-0006-x
 
 ## Author
 Jonathan Chan, University of Malaysia Sarawak
