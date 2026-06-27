@@ -8,6 +8,19 @@ CATCHv2 is an enhanced probe design pipeline that integrates CATCH (Compact Aggr
 
 CATCHv2 is a comprehensive bioinformatics pipeline designed for viral probe development and analysis. It combines CATCH for probe design and ViroSort as helper tool, created in-house, for viral sequence characterization—into a unified workflow.
 
+## Examples of oPools 
+Find the following links for oPools designed from complete genome sequences from Genbank
+1. Human-related respiratory viruses (non-EV) (https://thinfi.com/0lvhy)
+2. Other human viruses (https://thinfi.com/0lvi0)
+3. Human and other mammals (zoonotic or broad mammalian host range) (https://thinfi.com/0lvi1)
+4. Primarily non-human vertebrates (https://thinfi.com/0lvi2)
+5. Avian viruses (transmissible to humans) (https://thinfi.com/0lvi3)
+6. Plant-associated viruses (https://thinfi.com/0lvi4)
+7. Fungi-associated (mycoviruses) (https://thinfi.com/0lvi5)
+8. Bacteriophages (https://thinfi.com/0lvi7)
+9. Environmental viruses (commonly detected in wastewater, sewage, soil, feces, or environmental samples; host often unknown or likely fungi/protists/invertebrates) (https://thinfi.com/0lvi8)
+
+
 ### Primary Use Cases
 
 **1. Viral Probe Design for NGS Enrichment & Target Amplification**
@@ -296,12 +309,12 @@ C0001        101             200           0                   uncovered
 
 | File | Description | Example |
 |------|-------------|---------|
-| Degapped FASTA | Consensus sequences | `part1_degapped_input.fasta` |
-| Cluster file | CD-HIT clusters | `part1_cdhit_clusteredseq.clstr` |
-| Analysis TSV | Genome analysis statistics | `part1_oligos_anaM6NA26NT.tsv` |
-| Metadata CSV | Taxonomy information | `ncbi_virus_noncov_metadata.csv` |
-| Oligos FASTA | Probe sequences (optional) | `part1_oligosM6NA26NT.fasta` |
-| Probemap CSV | Probe-to-genome mapping (optional) | `part1_oligos_probemapNA26NT.csv` |
+| Degapped FASTA | Consensus sequences | `*_input.fasta` |
+| Cluster file | CD-HIT clusters | `*_clusteredseq.clstr` |
+| Analysis TSV | Genome analysis statistics | `*_analysis.tsv` |
+| Metadata CSV | Taxonomy information | `*_metadata.csv` |
+| Oligos FASTA | Probe sequences (optional) | `*_probes.fasta` |
+| Probemap CSV | Probe-to-genome mapping (optional) | `*_probemap.csv` |
 
 ### Obfuscation Details
 The following scripts have been obfuscated:
