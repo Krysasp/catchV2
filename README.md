@@ -10,15 +10,15 @@ CATCHv2 is a comprehensive bioinformatics pipeline designed for viral probe deve
 
 ## Examples of oPools 
 Find the following links for oPools designed from complete genome sequences from Genbank
-1. Human-related respiratory viruses (non-EV) (https://thinfi.com/0lvhy)
+1. Human-related respiratory viruses (non-EV) (https://thinfi.com/0lvie)
 2. Other human viruses (https://thinfi.com/0lvi0)
-3. Human and other mammals (zoonotic or broad mammalian host range) (https://thinfi.com/0lvi1)
-4. Primarily non-human vertebrates (https://thinfi.com/0lvi2)
-5. Avian viruses (transmissible to humans) (https://thinfi.com/0lvi3)
-6. Plant-associated viruses (https://thinfi.com/0lvi4)
-7. Fungi-associated (mycoviruses) (https://thinfi.com/0lvi5)
-8. Bacteriophages (https://thinfi.com/0lvi7)
-9. Environmental viruses (commonly detected in wastewater, sewage, soil, feces, or environmental samples; host often unknown or likely fungi/protists/invertebrates) (https://thinfi.com/0lvi8)
+3. Human and other mammals (zoonotic or broad mammalian host range) (https://thinfi.com/0lvhy)
+4. Primarily non-human vertebrates (https://thinfi.com/0lvi1)
+5. Avian viruses (transmissible to humans) (https://thinfi.com/0lvi2)
+6. Plant-associated viruses (https://thinfi.com/0lvi3)
+7. Fungi-associated (mycoviruses) (https://thinfi.com/0lvi4)
+8. Bacteriophages (https://thinfi.com/0lvi5)
+9. Environmental viruses (commonly detected in wastewater, sewage, soil, feces, or environmental samples; host often unknown or likely fungi/protists/invertebrates) (https://thinfi.com/0lvi7)
 
 
 ### Primary Use Cases
