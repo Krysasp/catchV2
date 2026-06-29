@@ -9,7 +9,7 @@ CATCHv2 is an enhanced probe design pipeline that integrates CATCH (Compact Aggr
 CATCHv2 is a comprehensive bioinformatics pipeline designed for viral probe development and analysis. It combines CATCH for probe design and ViroSort as helper tool, created in-house, for viral sequence characterization—into a unified workflow.
 
 ## Examples of oPools 
-Find the following links for oPools designed from complete genome sequences from Genbank
+Find the following links for oPools designed from then complete virus genome sequences (non-RefSeq) of Genbank
 1. Human-related respiratory viruses (non-EV) (https://thinfi.com/0lvie)
 2. Other human viruses (https://thinfi.com/0lvi0)
 3. Human and other mammals (zoonotic or broad mammalian host range) (https://thinfi.com/0lvhy)
