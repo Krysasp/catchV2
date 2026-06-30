@@ -185,8 +185,8 @@ catchV2/
 
 ```bash
 # Clone or copy the repository
-cp -r catch-1.5.2/ catchV2/
-cd catchV2
+git clone https://github.com/Krysasp/catchV2.git
+cd catchV2-master
 
 # Install dependencies
 pip install -e .
